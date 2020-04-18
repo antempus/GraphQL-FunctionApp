@@ -15,6 +15,7 @@ jobs:
         username: ${{ secrets.DOCKER_USERNAME }}
         password: ${{ secrets.DOCKER_PASSWORD }}
         repository: antempus/azurefunctionsimage
-        tag_with_sha: true
         tag_with_refs: true
+        tag_with_sha: true
+        tags: tag1
         push: true
