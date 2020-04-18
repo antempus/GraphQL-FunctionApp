@@ -15,4 +15,4 @@ jobs:
         repository: azurefunctionsimage
         tag_with_sha: true
         tag_with_refs: true
-        push: false
+        push: true
