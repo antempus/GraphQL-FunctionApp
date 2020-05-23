@@ -1,0 +1,25 @@
+{
+  "bindings": [
+    {
+      "authLevel": "anonymous",
+      "type": "httpTrigger",
+      "direction": "in",
+      "name": "req",
+      "methods": ["post"]
+    },
+    {
+      "type": "http",
+      "direction": "out",
+      "name": "res"
+    },
+    {
+      "type": "cosmosDB",
+      "direction": "out",
+      "name": "users",
+      "databaseName": "database",
+      "collectionName": "users",
+      "connectionStringSetting": "CosmosKey"
+    }
+  ],
+  "scriptFile": "../dist/addUsers/index.js"
+}
