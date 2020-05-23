@@ -14,9 +14,7 @@
     "apollo-server-azure-functions": "^2.13.1",
     "autocannon": "^4.6.0",
     "eslint": "^7.0.0",
-    "graphql": "^15.0.0"
-  },
-  "devDependencies": {
+    "graphql": "^15.0.0",
     "@azure/functions": "^1.0.2-beta2",
     "typescript": "^3.3.3"
   }
