@@ -1,0 +1,8 @@
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "<OPTIONAL FOR LOCAL>",
+    "FUNCTIONS_WORKER_RUNTIME": "node",
+    "CosmosKey": "<COMOS_CONNECTION_STRING>"
+  }
+}
