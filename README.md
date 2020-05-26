@@ -1,3 +1,5 @@
+![Docker Image CI](https://github.com/antempus/GraphQL-FunctionApp/workflows/Docker%20Image%20CI/badge.svg?branch=master)
+
 # GraphQL-FunctionApp
 
 GraphQL Function App backed by CosmosDB
